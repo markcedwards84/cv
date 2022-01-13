@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8">
+        <title>Inputs</title>
+    </head>
+    <body>
+        <label for="name">Choose name from file:</label>
+
+        <input type="file" id="name" name="name" accept="image/png, image/jpeg">
+
+        <br><br>
+
+        <label for="tentacles">Number of tentacles (10-100):</label>
+
+        <input type="number" id="tentacles" name="tentacles" min="10" max="100">
+
+        <p>Choose your monster's features:</p>
+
+        <input type="checkbox" id="scales" name="scales" checked>
+        <label for="scales">Scales</label>
+
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">Horns</label>
+
+        <br>
+
+        <p>Select a maintenance drone:</p>
+
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey"
+                 checked>
+          <label for="huey">Huey</label>
+        </div>
+
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey">
+          <label for="dewey">Dewey</label>
+        </div>
+
+        <div>
+          <input type="radio" id="louie" name="drone" value="louie">
+          <label for="louie">Louie</label>
+        </div>
+
+    </body>
+</html>
